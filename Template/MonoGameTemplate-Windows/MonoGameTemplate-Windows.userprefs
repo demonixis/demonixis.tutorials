@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoGameTemplate-Windows\Game1.cs">
+    <Files>
+      <File FileName="MonoGameTemplate-Windows\Main.cs" Line="1" Column="1" />
+      <File FileName="MonoGameTemplate-Windows\Program.cs" Line="4" Column="2" />
+      <File FileName="MonoGameTemplate-Windows\Game1.cs" Line="59" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
