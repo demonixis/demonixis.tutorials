@@ -1,1 +1,12 @@
-Sources XNA et MonoGame du blog Demonixis.net
+Fichiers sources issus du site blog.demonixis.net
+
+Blog dédié à la création de jeux vidéo amateur avec les technologies XNA, Flash et JavaScript
+
+0. Template
+Différents templates pour commencer un projet avec XNA ou MonoGame pour Windows et Linux (dépendances MonoGame incluses)
+
+1. Space Game
+Part1 : Projet basique Shooter
+Part2 : Shooter simple avec tir du laser
+Part3 : Création de la classe Sprite
+Part4 : Ajout des enemies

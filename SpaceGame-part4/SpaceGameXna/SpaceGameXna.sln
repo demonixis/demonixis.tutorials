@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceGameXna", "SpaceGameXna\SpaceGameXna\SpaceGameXna.csproj", "{24898D37-1FAD-4493-9194-E60AAF13333B}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SpaceGameXnaContent", "SpaceGameXna\SpaceGameXnaContent\SpaceGameXnaContent.contentproj", "{1D8FC96C-F9C8-49B0-9ECB-E4452AEA9F78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24898D37-1FAD-4493-9194-E60AAF13333B}.Debug|x86.ActiveCfg = Debug|x86
+		{24898D37-1FAD-4493-9194-E60AAF13333B}.Debug|x86.Build.0 = Debug|x86
+		{24898D37-1FAD-4493-9194-E60AAF13333B}.Release|x86.ActiveCfg = Release|x86
+		{24898D37-1FAD-4493-9194-E60AAF13333B}.Release|x86.Build.0 = Release|x86
+		{1D8FC96C-F9C8-49B0-9ECB-E4452AEA9F78}.Debug|x86.ActiveCfg = Debug|x86
+		{1D8FC96C-F9C8-49B0-9ECB-E4452AEA9F78}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
