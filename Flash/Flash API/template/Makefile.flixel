@@ -1,0 +1,8 @@
+MXMLC = mxmlc
+LIB = ../lib/flixel
+SRC = Main.as  # Tous les autres fichiers .as
+MAIN = Main.as # Fichier principal
+SWF = Main.swf # Nom du fichier final
+ 
+$(SWF) : $(SRC)
+	$(MXMLC) -sp $(LIB) -o $(SWF) -- $(MAIN)
