@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>JawsJS Shooter</title>
+    <style>
+      body { text-align: center; }
+      canvas { background: url('assets/background.jpg') center; }
+    </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="480" height="600">
+    Votre navigateur n'est pas compatible !
+  </canvas>
+  <script src="js/jaws.js"></script>
+  <script>
+    (function() {
+
+      function GameState ()
+      {
+        var ship = new jaws.Sprite({ image:"assets/ShipR.png" }); 
+        var shipSpeed = 4;
+        
+        this.setup = function()
+        {
+          ship.x = (jaws.width / 2) - (ship.width / 2); // Centré sur X
+          ship.y = jaws.height - ship.height - 10;       // En bas
+        }
+        
+        this.update = function()
+        {
+          // Position du vaisseau avant mise à jour
+          var position = { x: ship.x, y: ship.y };
+          
+          if (jaws.pressed("left")) { 
+            position.x -= shipSpeed; 
+          }
+          else if (jaws.pressed("right")) { 
+            position.x += shipSpeed; 
+          }
+          
+          // Gestion des collisions avec les bords de l'écran
+          if (position.x > 0 && position.x + ship.width < jaws.width)
+          {
+            ship.x = position.x;
+            ship.y = position.y;
+          }
+        }
+        
+        this.draw = function()
+        {
+          jaws.context.clearRect(0, 0, jaws.width, jaws.height);
+          ship.draw();
+        }
+      }
+    
+      window.onload = function()
+      {
+        jaws.assets.add("assets/ShipR.png");
+        jaws.assets.add("assets/BallR.png");
+        jaws.start(GameState);
+      }
+    })();
+  </script>
+</body>
+</html>
