@@ -1,0 +1,1 @@
+C:\Users\Yannick\Documents\GitHub\MonoGame\MonoGame.ContentPipeline\ContentProcessors\obj\Debug\MonoGameContentProcessors.csprojResolveAssemblyReference.cache

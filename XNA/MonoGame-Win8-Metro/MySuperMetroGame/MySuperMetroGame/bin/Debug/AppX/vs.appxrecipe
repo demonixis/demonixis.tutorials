@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC-YANNICK</Machine>
+    <WindowsUser>Yann</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>747EA73C9C1BAA4485593023186DBFA49F1883D88F654BF83C214D4A1B6BD8BE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>aac1a29f-83f6-4bcd-88b9-192898d3c60f_1.0.0.0_neutral__xnzwydchs2dpc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>aac1a29f-83f6-4bcd-88b9-192898d3c60f_xnzwydchs2dpc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>aac1a29f-83f6-4bcd-88b9-192898d3c60f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Yannick</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-06-22T08:18:56.361</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\MySuperMetroGame.exe">
+      <PackagePath>MySuperMetroGame.exe</PackagePath>
+      <Modified>2012-06-23T13:06:49.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\MySuperMetroGame.pdb">
+      <PackagePath>MySuperMetroGame.pdb</PackagePath>
+      <Modified>2012-06-23T13:06:49.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\MonoGame.Framework.Windows8.dll">
+      <PackagePath>MonoGame.Framework.Windows8.dll</PackagePath>
+      <Modified>2012-06-21T21:59:17.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.D3DCompiler.dll">
+      <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
+      <Modified>2012-06-09T17:04:22.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+      <Modified>2012-06-09T17:04:25.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+      <Modified>2012-06-09T17:04:27.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+      <Modified>2012-06-09T17:04:20.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+      <Modified>2012-06-09T17:04:23.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.MediaFoundation.dll">
+      <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
+      <Modified>2012-06-09T17:04:30.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+      <Modified>2012-06-09T17:04:28.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.XInput.dll">
+      <PackagePath>SharpDX.XInput.dll</PackagePath>
+      <Modified>2012-06-09T17:04:29.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\Content\player-status.xnb">
+      <PackagePath>Content\player-status.xnb</PackagePath>
+      <Modified>2012-06-22T08:18:53.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\Content\spriteFont.xnb">
+      <PackagePath>Content\spriteFont.xnb</PackagePath>
+      <Modified>2012-06-22T08:18:25.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-06-21T21:26:47.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-06-21T21:26:47.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-06-21T21:26:47.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-06-21T21:26:47.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-06-23T13:05:23.273</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

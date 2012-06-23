@@ -1,0 +1,68 @@
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\Assets\Logo.png
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\Assets\SmallLogo.png
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\Assets\SplashScreen.png
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\Assets\StoreLogo.png
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\MonoGame.Framework.Windows8.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\SharpDX.XInput.dll
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\MonoGame.Framework.Windows8.pri
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\MySuperMetroGame.exe
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\MySuperMetroGame.pdb
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\MySuperMetroGame.exe
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\MySuperMetroGame.pdb
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\resources.pri
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\AppxManifest.xml
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\MySuperMetroGame.build.appxrecipe
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\SharpDX\en\SharpDX.Properties.Resources.resw
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\MySuperMetroGame.csproj.GenerateResource.Cache
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\SharpDX.pri
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\SharpDX\LanguageQualifiers.txt
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\priconfig.xml.intermediate
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\layout.resfiles.intermediate
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\resources.resfiles.intermediate
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\pri.resfiles.intermediate
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\priconfig.xml
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\layout.resfiles
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\resources.resfiles
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\pri.resfiles
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\LanguageQualifiers.txt
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\MonoGame.Framework.Windows8.pri.xml
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\obj\Debug\ProjectArchitectures.txt
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\Content\player-status.xnb
+C:\Users\Yannick\Documents\Visual Studio 2012\Projects\MySuperMetroGame\MySuperMetroGame\bin\Debug\Content\spriteFont.xnb
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\Content\player-status.xnb
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\Content\spriteFont.xnb
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\Assets\Logo.png
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\Assets\SmallLogo.png
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\Assets\SplashScreen.png
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\Assets\StoreLogo.png
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\MySuperMetroGame.exe
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\MySuperMetroGame.pdb
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\resources.pri
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\AppxManifest.xml
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\MySuperMetroGame.build.appxrecipe
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\bin\Debug\MonoGame.Framework.Windows8.pri
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\MySuperMetroGame.csprojResolveAssemblyReference.cache
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\MySuperMetroGame.exe
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\MySuperMetroGame.pdb
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\SharpDX\en\SharpDX.Properties.Resources.resw
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\MySuperMetroGame.csproj.GenerateResource.Cache
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\SharpDX.pri
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\SharpDX\LanguageQualifiers.txt
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\priconfig.xml.intermediate
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\layout.resfiles.intermediate
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\resources.resfiles.intermediate
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\pri.resfiles.intermediate
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\priconfig.xml
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\layout.resfiles
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\resources.resfiles
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\pri.resfiles
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\LanguageQualifiers.txt
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\MonoGame.Framework.Windows8.pri.xml
+C:\Users\Yann\Downloads\MonoGame\MySuperMetroGame\MySuperMetroGame\obj\Debug\ProjectArchitectures.txt
