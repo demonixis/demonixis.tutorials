@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC-YANNICK</Machine>
+    <WindowsUser>Yann</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\bin\Debug\SpaceShipGame.exe">
+      <PackagePath>SpaceShipGame.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\bin\Debug\SpaceShipGame.pdb">
+      <PackagePath>SpaceShipGame.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\MonoGame.Framework.Windows8.dll">
+      <PackagePath>MonoGame.Framework.Windows8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\SharpDX.D3DCompiler.dll">
+      <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\SharpDX.MediaFoundation.dll">
+      <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Dropbox\Développement\Xna\MonoGame\Windows 8 Metro\SharpDX.XInput.dll">
+      <PackagePath>SharpDX.XInput.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\background-space.xnb">
+      <PackagePath>Content\background-space.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\laser.xnb">
+      <PackagePath>Content\laser.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\laser\laserbleu.xnb">
+      <PackagePath>Content\laser\laserbleu.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\laser\laserrouge.xnb">
+      <PackagePath>Content\laser\laserrouge.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\laser\laservert.xnb">
+      <PackagePath>Content\laser\laservert.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\laser\missile.xnb">
+      <PackagePath>Content\laser\missile.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\robot\robotnormal.xnb">
+      <PackagePath>Content\robot\robotnormal.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\robot\spacealien.xnb">
+      <PackagePath>Content\robot\spacealien.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\ship.xnb">
+      <PackagePath>Content\ship.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\ship\spaceship.xnb">
+      <PackagePath>Content\ship\spaceship.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Content\spriteFont.xnb">
+      <PackagePath>Content\spriteFont.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yann\Documents\Visual Studio 2012\Projects\SpaceShipGame\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

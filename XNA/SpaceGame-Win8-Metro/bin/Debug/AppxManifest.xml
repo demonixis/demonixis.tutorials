@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    LE FICHIER MANIFESTE DE CE PACKAGE A ÉTÉ GÉNÉRÉ PAR LE PROCESSUS DE GÉNÉRATION.
+
+    Les modifications apportées à ce fichier seront perdues lors de la régénération. Pour corriger les erreurs  présentes dans ce fichier, modifiez le fichier source .appxmanifest.
+
+    Pour plus d'informations sur les fichiers manifeste, consultez http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="39600242-61ba-4159-8017-d8686a4b5cc3" Publisher="CN=Yann" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>SpaceShipGame</DisplayName>
+    <PublisherDisplayName>Yann</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>SpaceShipGame</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="FR-FR" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="SpaceShipGame.exe" EntryPoint="SpaceShipGame.App">
+      <VisualElements DisplayName="SpaceShipGame" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="SpaceShipGame" ForegroundText="light" BackgroundColor="#222222">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5" />
+    <build:Item Name="VisualStudio" Version="11.0" />
+    <build:Item Name="OperatingSystem" Version="6.2.8400.0 (winmain_win8rc.120518-1423)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.50522.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="4.0.30319.17561" />
+    <build:Item Name="MakePri.exe" Version="6.2.8400.0 (winmain_win8rc.120518-1423)" />
+  </build:Metadata>
+</Package>

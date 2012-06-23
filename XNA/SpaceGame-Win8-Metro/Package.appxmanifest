@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity Name="39600242-61ba-4159-8017-d8686a4b5cc3"
+            Publisher="CN=Yann"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>SpaceShipGame</DisplayName>
+    <PublisherDisplayName>Yann</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>SpaceShipGame</Description>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="SpaceShipGame.App">
+        <VisualElements
+            DisplayName="SpaceShipGame"
+            Logo="Assets\Logo.png"
+            SmallLogo="Assets\SmallLogo.png"
+            Description="SpaceShipGame"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Assets\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
