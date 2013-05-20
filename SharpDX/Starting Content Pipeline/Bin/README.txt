@@ -1,0 +1,1 @@
+Placez ici le contenu du dossier Bin de SharpDX. Vous êtes libre de mettre uniquement la version qui vous intéresse.
