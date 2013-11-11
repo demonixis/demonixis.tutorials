@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<title>Demonixis.Net :: Babylon.js - Partie 2</title>
+    <style>
+		body, html {
+			margin: 0; 
+			padding: 0; 
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+		}
+		canvas {
+			width: 100%;
+			height: 100%;
+		}	
+		
+		#crosshair {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			width: 5px;
+			height: 5px;
+			z-index: 999;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	<span id="crosshair"></span>
+	<canvas id="renderCanvas"></canvas>
+<script src="js/babylon.1.6.js"></script>
+<script src="js/hand-1.1.3.js"></script>
+<script src="js/demo.js"></script>
+<script>
+	runDemo("renderCanvas");
+</script>
+</body>
+</html>
