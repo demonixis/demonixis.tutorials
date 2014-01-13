@@ -1,0 +1,6 @@
+[
+	["game.title", "My super game"],
+	["game.new", "New"],
+	["game.settings", "Settings"],
+	["game.exit", "Exit"]
+]

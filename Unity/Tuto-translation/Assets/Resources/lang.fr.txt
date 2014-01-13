@@ -1,0 +1,6 @@
+[
+	["game.title", "Mon super jeu"],
+	["game.new", "Nouveau"],
+	["game.settings", "Paramètres"],
+	["game.exit", "Quitter"]
+]
