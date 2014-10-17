@@ -1,10 +1,12 @@
 var Tutorial = {
 	run: function () {
+		// Init
 		var canvas = document.getElementById("renderCanvas");
 		var engine = new BABYLON.Engine(canvas, true);
 		var scene = new BABYLON.Scene(engine);
 		var camera = new BABYLON.ArcRotateCamera("ArcRotateCamera", 1, 0.8, 10, new BABYLON.Vector3(0, 3, 0), scene);
-		//var camera = new BABYLON.VRDeviceOrientationCamera("VRDeviceCamera", new BABYLON.Vector3(0, 10, 0), scene);
+		var vrCamera = new BABYLON.VRDeviceOrientationCamera("VRDeviceCamera", new BABYLON.Vector3(0, 10, 0), scene);
+		scene.activeCamera = camera;
 		scene.activeCamera.attachControl(canvas);
 		
 		var light = new BABYLON.DirectionalLight("DirLight", new BABYLON.Vector3(1, -1, 0), scene);
@@ -12,16 +14,43 @@ var Tutorial = {
 		light.specular = new BABYLON.Color3(0.3, 0.3, 0.3);
 		light.intensity = 1.5;
 
+		// Génération de la grile
 		var grid = new HexGridBuilder(15, 15, 1);
 		grid.generate(scene);
 		
-		var d = document.getElementById("d");
+		// Activation du mode VR
+		var vrEnabled = false;
+		var vr = document.getElementById("vr");
 		
+		var onToggleVRMode = function (event) {
+			scene.activeCamera.detachControl(canvas);
+			
+			if (vrEnabled || event.forceNormal) {
+				scene.activeCamera = camera;
+				scene.activeCamera.attachControl(canvas);
+				BABYLON.Tools.ExitFullscreen();
+			}
+			else {
+				scene.activeCamera = vrCamera;
+				scene.activeCamera.attachControl(canvas);
+				BABYLON.Tools.RequestFullscreen(canvas);
+			}
+		};
+		
+		vr.addEventListener("click", onToggleVRMode, false);
+		
+		// Reset de la caméra à l'appuis sur escape.
+		vr.addEventListener("keydown", function (event) {
+			if (event.keyCode === 27) {
+				onToggleVRMode({ forceNormal: true });
+			}
+		}, false);
+		
+		// Changement de couleur au clic de souris/touch
+		var highlightedTile = null;
 		var highlightedMaterial = new BABYLON.StandardMaterial("hlMat", scene);
 		highlightedMaterial.diffuseColor = new BABYLON.Color3(1.0, 0.0, 0.0);
 		highlightedMaterial.alpha = 0.8;
-		
-		var highlightedTile = null;
 		
 		var onClickHandler = function (event) {
 			var pick = scene.pick(event.clientX, event.clientY);
@@ -38,9 +67,7 @@ var Tutorial = {
 				pickedMesh.material = highlightedMaterial;
 				highlightedTile = pickedMesh;
 				
-				var debug = "Hex grid coordinates<br /> X: " + highlightedTile.hexPosition.x;
-				debug += " Y: " + highlightedTile.hexPosition.z;
-				d.innerHTML = debug;
+				console.log(highlightedTile.hexPosition);
 			}
 			else {
 				if (highlightedTile) {
@@ -52,7 +79,8 @@ var Tutorial = {
 		};
 		
 		document.body.addEventListener("pointerdown", onClickHandler, false);
-
+		//document.body.addEventListener("click", onClickHandler, false);
+		
 		engine.runRenderLoop(function() {
 			scene.render();
 		});
